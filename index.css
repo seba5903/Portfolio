@@ -1,0 +1,139 @@
+/* Grid area*/
+    
+#Portfolio {
+    grid-area: il;
+} 
+ 
+#itemp2 {
+    grid-area: mp;
+}
+
+
+#points {
+    grid-area: hh;
+}
+
+/* Grid area end */
+
+/* Mobile layout */
+
+@media only screen and (max-width: 1200px) and (min-width: 200px) {
+    
+body {
+    font-family:sans-serif;
+	font-weight: 450;
+    background-color: #e5e4e1;
+}    
+    
+h1 {
+    color: #000000;
+    font-size: 40px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 40px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 30px;
+}
+
+h4 {
+    color: #000000;
+    font-size: 7px;
+}
+
+p {
+    color: #000000;
+    font-size: 15px;
+}
+
+
+}
+
+
+/* Mobile layout ends here */
+
+
+
+@media only screen and (max-width: 4500px) and (min-width: 1201px) {    
+
+body {
+    font-family: 'PT sans', sans-serif;
+	font-weight: 400;
+    background-color: #e5e4e1;
+}
+    
+h1 {
+    color: #000000;
+    font-size: 120px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 80px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 25px;
+}
+
+h4 {
+    color: #000000;
+    font-size: 15px;
+}
+
+p {
+    color: #000000;
+    font-size: 30px;
+}
+
+#snow  {
+    opacity:100%;
+}
+
+}
+
+.home > div {
+    background-image: url(snowmountains.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat (6, 1fr);
+    grid-template-rows: repeat (6, 1fr);
+    grid-template-areas:
+        ". . . . . ."
+        "il il . . . ."
+        "hh hh hh . . ."
+        ". . . . . ."
+        ". . . . . ."
+        ". . . . . .";
+}  
+
+
+ 
+.gb > div {
+    background-image: url('pictures/Sapling_m.png');
+    background-size: cover;
+    background-position: center;
+    padding-left: 15%;
+    padding-right: 30%;
+}
+
+li {
+    margin-bottom: 2em !important;
+    margin-right: 1em !important;
+}
+
+
+#
+/* Navigation for Computer ends here*/
+
+/* Computer layout ends here */
